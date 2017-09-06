@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="e5V-Wz-UR7">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="T9L-s5-eI1">
+            <objects>
+                <viewController id="e5V-Wz-UR7" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="NhN-kl-J31"/>
+                        <viewControllerLayoutGuide type="bottom" id="J9G-wI-Zit"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Bpb-MW-8DP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Default.png" translatesAutoresizingMaskIntoConstraints="NO" id="gna-oz-5iC">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="gna-oz-5iC" secondAttribute="height" multiplier="375:667" id="irJ-70-sxa"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="gna-oz-5iC" firstAttribute="top" secondItem="Bpb-MW-8DP" secondAttribute="top" id="1mg-z7-qgQ"/>
+                            <constraint firstItem="J9G-wI-Zit" firstAttribute="top" secondItem="gna-oz-5iC" secondAttribute="bottom" id="3xH-p1-ebS"/>
+                            <constraint firstAttribute="trailing" secondItem="gna-oz-5iC" secondAttribute="trailing" id="C3W-6I-sy5"/>
+                            <constraint firstItem="gna-oz-5iC" firstAttribute="leading" secondItem="Bpb-MW-8DP" secondAttribute="leading" id="SEV-h7-Z8x"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RgA-mP-GRQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="695.20000000000005" y="-45.42728635682159"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Default.png" width="320" height="480"/>
+    </resources>
+</document>
